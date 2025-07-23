@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue sur la page d'acceuil</title>
+</head>
+<body>
+    <h1>Bienvenue sur la page d'acceuil</h1>
+    <style>
+        body{
+            background-image: url("liv2.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        p{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .paragraphe-rideau{
+            min-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transform: scaleY(0);
+            transform-origin: top;
+           animation: rideau 1.5s ease-out forwards;
+        }
+        @keyframes rideau {
+            to{
+                max-height: 500px; 
+                opacity: 1;
+                transform: scaleY(1);
+            }
+        }
+
+    </style>
+    <p class="paragraphe-rideau">Ici vous êtes au bon endroit pour pouvoir connaître l'explication 
+        de beaucoups de mots qui vous semblent difficiles ou inexplicables
+        alors bienvenu une fois encore. Nous vous donnons rendez-vous sur la liste 
+        des mots pour détecter le mot que vous recherchez ou taper votre mot dans la barre de 
+        recherche😍🤔<br>
+    </p>
+    
+</body>
+</html>

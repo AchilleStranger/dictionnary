@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIENVENUE CHEZ NOUS</title>
+</head>
+<body>
+    <h1>BIENVENUE CHEZ NOUS</h1>
+    <style>
+        body{
+            background-image: url("fo.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        li{
+            font-weight: bold;
+        }
+        .rebond{
+           display: inline-block;
+           animation: rebondir 1.2s ease;
+       }
+
+       @keyframes rebondir {
+        0%   { transform: translateY(-300px); opacity: 0; }
+        60%  { transform: translateY(30px); opacity: 1; }
+        80%  { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
+       }
+        
+    </style>
+    <ul class="rebond">
+        <li>Contactez-nous sur le +228 99-45-67-35</li>
+        <li>Ecrivez-nous sur l'adresse mail suivant <a href="mailto:bossouachille99@gmail.com">bossouachille99@gmail.com</a></li>
+    </ul>
+    
+</body>
+</html>
