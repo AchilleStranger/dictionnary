@@ -65,7 +65,38 @@ a:hover{
   color: greenyellow;
   transition: 0.5s;
   background-color: black;
+
+}
+@media (max-with:600px){
+  body{
+    padding: 5px;
+
+  }
+  a{
+    margin: 0.5rem;
+    display: block;
+    width: 80%;
+
+  }
+  form{
+    width: 95%;
+    margin: 20px auto 10px auto;
+    justify-content: center;
+  }
+  input{
+    width: 70%;
+    margin-left: 0;
+
+  }
+  .search-btn{
+    padding: 0.3rem 0.5rem;
+  }
+
+}
+
+
   
 }
+
 
 
